@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+}
+.container{
+    background-color: crimson;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.container ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.container ul li {
+    float: left;
+}
+.container ul li a {
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.container ul li.home{
+    display: none;
+}
+.container ul li.search{
+    float:right;
+}
+
+
+/*Extra large devices (large desktops,1200px and up)*/
+@media (min-width:1200px){
+
+}
+/*Large devices (desktops, 9922px and up)*/
+@media (min-width:992px) and (max-width:1199.98px){
+    
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width:768px) and (max-width:991.98px){
+   .container{
+       width: 100%;
+   }
+    .container ul li.home{
+        display: block;
+   }
+   .container ul li.a{
+       display: none;
+   }
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width:576px) and (max-width:767.98px){
+    .container{
+        width: 100%;
+    }
+     .container ul li.home{
+         display: block;
+    }
+    .container ul li.a{
+        display: none;
+    }
+}
+/*Extra small devices (portrait phones, less than 576px*/
+@media (max-width:575.98px){
+    .container{
+        width: 100%;
+    }
+     .container ul li.home{
+         display: block;
+    }
+    .container ul li.a{
+        display: none;
+    }
+}

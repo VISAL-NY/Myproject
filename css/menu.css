@@ -1,0 +1,24 @@
+.menu{
+    background-color: aqua;
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+.menu ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    display: block;/* use display block bez a is inline block so want a tag to have padding margin...*/
+    padding: 20px;
+    /* background-color: beige; */
+}
+.menu ul li a:hover{
+    background-color: blue;
+    color: yellow;
+}

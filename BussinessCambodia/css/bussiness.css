@@ -1,0 +1,244 @@
+body{
+    margin: 0;
+    font-family: 'Siemreap', cursive;
+}
+.menu-box{
+    width: 100%;
+    background-color: crimson;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99; /*set which one on which one*/
+    /* float: left; */
+    /* font-family: 'Siemreap', cursive; */
+
+}
+.space{
+    width: 100%;
+    height: 70px;
+    float: left;
+}
+.menu-box ul{
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin: auto;
+    position: relative;
+}
+.menu-box ul li{
+    display: inline-block;
+    margin: -2px;
+}
+.menu-box ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 18px;
+    color: white;
+    font-size: 16px;
+    transition: 0.6s;
+}
+.menu-box ul li a:hover{
+    background-color: rgba(105, 105, 105, 0.341);
+}
+
+.menu-box ul li.icon-search{
+    position: absolute;
+    right: 0;
+}
+
+.slide-box{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    background-color:whitesmoke;
+    overflow: hidden;
+    border-radius: 4px 4px;
+    /* float: left; */
+}
+.box1{
+    float: left;
+    background-color:crimson;
+    color: white;
+    padding: 11px;
+    width: 16%;
+    text-align: center;
+}
+.box2{
+    width: 80%;
+    float: right;
+    padding: 10px;
+}
+.box2 a marquee{
+    color:rgb(206, 11, 50);
+}
+
+.image-box{
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    margin-top: 10px;
+    background-image: url("../image/download.png");
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    background-color: white;
+}
+.container .box{
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+.container .box .box-image{
+    width: 49.5%;
+    height: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+
+
+}
+.box-image .box-image1{
+    width: 100%;
+    height: 49.5%;
+    margin-bottom: 1%;
+    position: relative;
+}
+.box-image .box-image2{
+    float: left;
+    width: 49.5%;
+    height: 49.5%;
+    position: relative;
+}
+
+.box-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.box-image .a {
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.514),rgba(0, 0, 0, 0.837));
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    color:whitesmoke;
+}
+
+.box-image1 p{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+.box-image2 p{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+
+.container .box .box-image:hover{
+    /* transform: scale(1.2); */
+    /* transition: 0.8s; */
+}
+
+.new-box{
+    width: 100%;
+    margin-top: 20px;
+}
+.title-box h1{
+    font-size: 20px;
+    background-color: crimson;
+    color: white;
+    margin: 0;
+    display: inline-block;
+    padding: 8px;
+}
+
+.new-box1{
+    width: 70%;
+    /* overflow: hidden; */
+    /* float: left; */
+    border-top: 2px solid red;
+    margin-top: 2px;
+    background-color: aquamarine;
+}
+.new-box1-1{
+    width: 49%;
+    float: left;;
+    margin-top: 2px;
+    overflow: hidden;
+}
+.new-box1-1 h1{
+    font-size: 13px;
+    
+}
+.new-box1-1 img:hover{
+    transform: scale(1.2);
+    transition: 0.7s;
+    cursor: pointer;
+}
+.new-box1-1-1{
+    margin-top: 10px;
+    width: 100%;
+    height: 150px;
+}
+.new-box1-1-1 .image{
+    width: 40%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+    box-sizing: border-box;
+    margin: 0;
+    object-fit: cover;
+}
+.new-box1-1-1 .title{
+    width: 59%;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+.title h2{
+    font-size: 12px;
+}
+.title p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+}
+.new-box1-1-1 img{
+    width: 30%;
+    height: 100%;
+}
+.new-box1-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.new-box2{
+    width: 28%;
+    float: right
+}
+.new-box2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
